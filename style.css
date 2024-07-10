@@ -32,6 +32,7 @@ nav{
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
+    cursor: pointer;
 
 }
 
@@ -92,6 +93,7 @@ nav{
     background: rgb(13, 19, 33);
     padding: 21px 24px 21px 24px;
     margin-bottom: 44px;
+    cursor: pointer;
 }
 
 .purpose-container{
@@ -184,6 +186,7 @@ nav{
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
 }
 
 .do_help{
@@ -354,7 +357,9 @@ nav{
 }
 
 .support-container{
-    background-image: url("assets/handshake.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
     width: 1140px;
     margin: 0 auto;
     display: flex;
@@ -363,7 +368,6 @@ nav{
     align-items: center;
     padding: 64px 48px 64px 48px;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
     margin-bottom: 79px;
 }
 
@@ -427,6 +431,7 @@ nav{
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
 }
 
 .footer{
