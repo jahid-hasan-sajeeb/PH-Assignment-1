@@ -253,9 +253,178 @@ nav{
     padding: 32px;
     width: 1140px;
     height: 614px;
+    margin-bottom: 149px;
 }
 
 .ins-video iframe{
     border-radius: 16px;
     background: url(Jhankar);
+}
+
+.target{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+
+}
+
+.target-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.target-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 852px;
+    opacity: 0.7;
+    margin-bottom: 48px;
+}
+
+.box-container{
+    display: flex;
+    gap:24px;
+    margin-bottom: 111px;
+}
+
+.box-1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.box-2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+
+.box-3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+
+.box-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.box-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    width: 284px;
+    margin-bottom: 24px;
+}
+
+.box-hlink{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.support-container{
+    background-image: url("assets/handshake.jpg");
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    margin-bottom: 79px;
+}
+
+.support-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.support-description{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.submit-box{
+    display: flex;
+    gap:16px;
+}
+
+.input-box{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    width: 548px;
+    height: 57px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.submit-btn{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px 20px 17px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
